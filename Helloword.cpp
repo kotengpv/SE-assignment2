@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-  string name;
+  string nam;
   std::cin >> name;
   std::cout << "Hello, " + name << std::endl;
   return 0;
