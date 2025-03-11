@@ -1,4 +1,4 @@
-#include <iostream>hj
+#include <iostream>
 using namespace std;
 int main() {
   string name;
