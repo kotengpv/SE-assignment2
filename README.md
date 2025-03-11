@@ -1,34 +1,38 @@
 # SE-assignment2
 
 README.md
-Simple Greeting Program
+
+# Simple Greeting Program
+
 This is a basic C++ program that takes a user's input (their name) and prints a greeting message.
 
-Features
+Features:
+
 Accepts user input
 Outputs a personalized greeting
 Uses standard C++ libraries
-Installation
+
+Installation: 
+
 Ensure you have a C++ compiler installed (e.g., g++ for Linux/macOS or MinGW for Windows).
 Clone this repository or create a new file called main.cpp and paste the code below.
-Usage
-Compiling and Running the Program
+
+Usage:
+
+Compiling and Running the Program:
+
 Using g++:
-sh
-Copy
-Edit
+
 g++ -o greeting main.cpp
 ./greeting
+
 Using clang++:
-sh
-Copy
-Edit
+
 clang++ -o greeting main.cpp
 ./greeting
 Code
 cpp
-Copy
-Edit
+
 #include <iostream>
 using namespace std;
 
@@ -39,10 +43,11 @@ int main() {
     cout << "Hello, " << name << endl;
     return 0;
 }
-Example Output
+
+Example Output:
+
 yaml
-Copy
-Edit
+
 Enter your name: John
 Hello, John
 This program reads user input and prints a greeting message accordingly.
