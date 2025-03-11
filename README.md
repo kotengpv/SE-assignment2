@@ -6,27 +6,27 @@ README.md
 
 This is a basic C++ program that takes a user's input (their name) and prints a greeting message.
 
-Features:
+# Features:
 
 Accepts user input
 Outputs a personalized greeting
 Uses standard C++ libraries
 
-Installation: 
+# Installation: 
 
 Ensure you have a C++ compiler installed (e.g., g++ for Linux/macOS or MinGW for Windows).
 Clone this repository or create a new file called main.cpp and paste the code below.
 
-Usage:
+# Usage:
 
 Compiling and Running the Program:
 
-Using g++:
+# Using g++:
 
 g++ -o greeting main.cpp
 ./greeting
 
-Using clang++:
+# Using clang++:
 
 clang++ -o greeting main.cpp
 ./greeting
@@ -44,10 +44,11 @@ int main() {
     return 0;
 }
 
-Example Output:
+# Example Output:
 
 yaml
 
 Enter your name: John
 Hello, John
+
 This program reads user input and prints a greeting message accordingly.
